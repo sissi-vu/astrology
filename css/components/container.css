@@ -5,19 +5,24 @@
 	margin: 10px 200px 10px 200px;
 }
 
+.container2 img
+{ 
+	margin: 10px 200px 10px 200px;
+ }
+
 /*RESPONSIVE DESIGN */
 @media (max-with: 960px)
-{   .container
+{   .container, .container2
 	{width: 700px;}   
 }
 
 @media (max-with:720px)
-{   .container
+{   .container, .container2
 	{width: 500px;}   
 }
 
 @media (max-width: 540px)
 {
-	.container
+	.container,  .container2
 	{width: 300px;}
 }
