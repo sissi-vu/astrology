@@ -1,0 +1,23 @@
+.container
+{
+	color: white;
+	width: 700px;
+	margin: 10px 200px 10px 200px;
+}
+
+/*RESPONSIVE DESIGN */
+@media (max-with: 960px)
+{   .container
+	{width: 700px;}   
+}
+
+@media (max-with:720px)
+{   .container
+	{width: 500px;}   
+}
+
+@media (max-width: 540px)
+{
+	.container
+	{width: 300px;}
+}
